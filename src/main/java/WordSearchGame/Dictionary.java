@@ -24,7 +24,7 @@ public class Dictionary{
 		return dictionary;
 	}
 	public static void main(String [] args) throws IOException{
-		Dictionary dict=new Dictionary("C:/Users/hp/Documents/dictionary.txt");
+		Dictionary dict=new Dictionary("src/main/java/WordSearchGame/Dictionary.txt");
 		//dict.dictionary.printTrie();
 		System.out.println(dict.dictionary.find("regardless"));
 	}
